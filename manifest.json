@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"Screenify",
+    "version":"1.0",
+    "description": "A Screenify extension!",
+    "icons":
+    {
+        "128":"Screenifylogo128.png",
+        "48":"Screenifylogo48.png",
+        "16":"Screenifylogo16.png"
+    },
+    "browser_action":
+    {
+        "default_popup":"popup.html"
+    },
+    "permissions":
+    [
+        "storage"
+    ]
+}
